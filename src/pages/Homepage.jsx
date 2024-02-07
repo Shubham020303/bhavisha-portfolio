@@ -7,6 +7,7 @@ import Experience from '../components/Experience'
 import Education from '../components/Education'
 import Skills from '../components/Skills'
 import Connect from '../components/Connect'
+import Work from '../components/Work'
 
 const Homepage = () => {
 	return (
@@ -16,6 +17,7 @@ const Homepage = () => {
 			<Experience />
 			<Education />
 			<Skills />
+			<Work />
 			<Connect />
 		</>
 	)
