@@ -44,7 +44,7 @@ const Work = () => {
 				<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 px-5 lg:px-0'>
 					{projectData.map((item, index) => (
 						<div key={index} className='w-full'>
-							<iframe src={"https://drive.google.com/file/d/"+ item.linkId +"/preview"} className='w-full h-auto aspect-video rounded-lg' allowfullscreen></iframe>
+							<iframe src={"https://drive.google.com/file/d/"+ item.linkId +"/preview"} className='w-full h-auto aspect-video rounded-lg'></iframe>
 							<p className='text-2xl font-Raleway font-bold text-secondary mt-5'>{item.name}</p>
 							<p className='text-lg font-Raleway font-semibold text-secondary mt-2 text-justify lg:text-left'>{item.description}</p>
 						</div>

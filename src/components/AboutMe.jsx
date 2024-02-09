@@ -11,7 +11,7 @@ const AboutMe = () => {
 				</div>
 				<div className='w-full grid grid-cols-1 lg:grid-cols-2 gap-y-5 lg:gap-y-0 px-5 lg:px-0'>
 					<div className='w-full h-full'>
-						<img src='https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=1080' className='lg:w-[70%] w-full h-full object-cover' />
+						<img src='https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=1080' className='lg:w-[75%] w-full h-full object-cover mx-auto' />
 					</div>
 					<div className='w-full h-full flex flex-col items-start justify-between'>
 						<p className='text-white font-Open-Sans text-[2.5vh] lg:text-[3.5vh] 2xl:text-[3vh] text-justify lg:text-left font-medium'>As a seasoned Unity developer with over 5 years of experience, I specialize in creating captivating and seamless interactive experiences. Proficient in game design, programming, and optimization across diverse platforms.</p>
