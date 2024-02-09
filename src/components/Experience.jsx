@@ -31,19 +31,19 @@ const Experience = () => {
 
 	return (
 		<section className='w-full min-h-screen bg-primary'>
-			<div className='max-w-7xl mx-auto h-full flex flex-col justify-center gap-20 py-10'>
+			<div className='lg:max-w-6xl 2xl:max-w-7xl mx-auto h-full flex flex-col justify-center lg:gap-20 gap-10 py-10'>
 				<div className='uppercase text-center w-full h-fit mb-10'>
-					<p className='font-Raleway text-6xl text-blackish uppercase'>Relevant</p>
-					<p className='font-Raleway text-6xl text-blackish uppercase'>Experience</p>
+					<p className='font-Raleway text-[5vh] lg:text-[8vh] leading-[5vh] lg:leading-[8vh] text-blackish uppercase'>Relevant</p>
+					<p className='font-Raleway text-[5vh] lg:text-[8vh] leading-[5vh] lg:leading-[8vh] text-blackish uppercase'>Experience</p>
 				</div>
-				<div className='w-full grid grid-cols-2 gap-10 gap-y-20'>
+				<div className='w-full grid grid-cols-1 md:grid-cols-2 gap-20 lg:gap-10 md:gap-y-20 gap-y-10 px-5 lg:px-0'>
 					{experienceData.map((item, index) => (
-						<div key={index} className='flex items-start gap-5'>
+						<div key={index} className='flex flex-col lg:flex-row items-start lg:gap-5 gap-2'>
 							<p className='whitespace-nowrap text-blackish font-semibold'>{item.time}</p>
 							<div>
 								<p className='text-blackish text-2xl font-semibold mb-1'>{item.position}</p>
-								<p className='text-blackish text-xl font-medium mb-8'>{item.company}</p>
-								<p className='text-secondary font-medium'>{item.description}</p>
+								<p className='text-blackish text-xl font-medium lg:mb-8 mb-4'>{item.company}</p>
+								<p className='text-secondary font-medium text-justify lg:text-left'>{item.description}</p>
 							</div>
 						</div>
 					))}
